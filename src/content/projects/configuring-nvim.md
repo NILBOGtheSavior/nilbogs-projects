@@ -2,7 +2,7 @@
 title: 'Configuring Neovim'
 description: 'Configuring neovim as NILBOGs ideal development environment'
 pubDate: 'March 2 2026'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/img/neovim_thumbnail.jpg'
 ---
 
 ## Summary

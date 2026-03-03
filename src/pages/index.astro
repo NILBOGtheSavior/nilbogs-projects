@@ -1,8 +1,15 @@
 ---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('projects')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <!doctype html>
@@ -16,14 +23,32 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			<h1> Hello, Goblins!</h1>
 
 			<p>
-				This site documents my projects progress. All active public projects will be documented with an overview, plan, and checkpoints.
+				This site serves as a live repository for my current builds. Each project is tracked through its overview, technical plan, and development checkpoints.
 			</p>
 
-			<p>
-				Project pages may be updated midstream.
-			</p>
+			<code style="color: yellow;">
+				WARN: Project pages may be updated midstream.
+			</code>
 
 			<h2> Projects </h2>
+
+			{
+			posts.map((post) => (
+				<a href={`/projects/${post.id}/`} style="color: var(--white); text-decoration: none;">
+					<div style="display: flex; gap: 30px;">
+						{post.data.heroImage && (
+							<Image width={144} height={72} src={post.data.heroImage} alt="" />
+						)}
+						<div>
+							<h4 class="title">{post.data.title}</h4>
+							<p class="date" style="margin: 0;">
+								<FormattedDate date={post.data.pubDate} />
+							</p>
+						</div>
+					</div>
+				</a>
+			))
+			}
 		</main>
 		<Footer />
 	</body>
