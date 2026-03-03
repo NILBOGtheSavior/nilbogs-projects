@@ -1,5 +1,2 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
 export const SITE_TITLE = 'NILBOGs Projects';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_DESCRIPTION = 'This site serves as a live repository for my current builds. Each project is tracked through its overview, technical plan, and development checkpoints.';
