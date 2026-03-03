@@ -31,7 +31,7 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
 ```
 
 - [ ] Configure `vim.opt`
-- [ ] Install plugins
+- [ ] Install plugins:
     - [ ] [lazydev.nvim]() - nvim lsp
     - [ ] [Lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
     - [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - brackets and parentheses
