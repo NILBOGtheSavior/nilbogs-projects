@@ -32,15 +32,15 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
 
 - [ ] Configure `vim.opt`
 - [ ] Install plugins:
-    - [ ] [lazydev.nvim](https://github.com/folke/lazydev.nvim) - nvim lsp
-    - [ ] [Lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
+    - [X] [lazydev.nvim](https://github.com/folke/lazydev.nvim) - nvim lsp
+    - [X] [Lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
     - [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - brackets and parentheses
     - [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap) - debug adapter protocol
     - [ ] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - git indicators
     - [ ] [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) - indentation plugin
-    - [ ] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - file menu
+    - [X] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - file menu
     - [ ] [Comment.nvim](https://github.com/numToStr/Comment.nvim) - quick toggle comments
-    - [ ] [which-key.nvim](https://github.com/folke/which-key.nvim) - keybinding popup
+    - [X] [which-key.nvim](https://github.com/folke/which-key.nvim) - keybinding popup
     - [ ] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - fuzzy finder
     - [ ] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - language server
     - [ ] [mason.nvim](https://github.com/mason-org/mason.nvim) - language server manager
