@@ -34,7 +34,7 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
 - [ ] Install plugins:
     - [X] [lazydev.nvim](https://github.com/folke/lazydev.nvim) - nvim lsp
     - [X] [Lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
-    - [ ] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - brackets and parentheses
+    - [X] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - brackets and parentheses
     - [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap) - debug adapter protocol
     - [ ] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - git indicators
     - [ ] [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) - indentation plugin
@@ -52,7 +52,7 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
     - [ ] [md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - PDF converter for MD
     - [ ] [fidget.nvim](https://github.com/j-hui/fidget.nvim) - status notifier
     - [ ] [nvim-surround](https://github.com/kylechui/nvim-surround) - surround selections
-    - [ ] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - status line
+    - [X] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - status line
     - [ ] [conform.nvim](https://github.com/stevearc/conform.nvim) - formatter
 - [ ] Validation
 
