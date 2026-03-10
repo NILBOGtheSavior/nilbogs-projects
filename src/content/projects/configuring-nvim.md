@@ -14,7 +14,7 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
 
 ## Checkpoints
 
-- [ ] Set up directory structure
+- [X] Set up directory structure
 
 ```
 󰉋 nvim/
@@ -30,34 +30,34 @@ Configuring neovim as NILBOGs ideal development environment. After using [kickst
         └── 󰈙 plugin.lua
 ```
 
-- [ ] Configure `vim.opt`
+- [X] Configure `vim.opt`
 - [ ] Install plugins:
     - **Lazy environment**
     - [X] [Lazy.nvim](https://github.com/folke/lazy.nvim) - plugin manager
     - [X] [lazydev.nvim](https://github.com/folke/lazydev.nvim) - nvim lsp
     - **Core Utilities**
-    - [ ] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - parser
-    - [ ] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - fuzzy finder
+    - [X] [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - parser
+    - [X] [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - fuzzy finder
     - **Quality of Life**
     - [X] [which-key.nvim](https://github.com/folke/which-key.nvim) - keybinding popup
     - [X] [Neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) - file menu
     - [X] [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - brackets and parentheses
-    - [ ] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - git indicators
-    - [ ] [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) - indentation plugin
-    - [ ] [nvim-surround](https://github.com/kylechui/nvim-surround) - surround selections
-    - [ ] [conform.nvim](https://github.com/stevearc/conform.nvim) - formatter
+    - [X] [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - git indicators
+    - [X] [indentmini.nvim](https://github.com/nvimdev/indentmini.nvim) - indentation plugin
+    - [X] [nvim-surround](https://github.com/kylechui/nvim-surround) - surround selections
+    - [X] [conform.nvim](https://github.com/stevearc/conform.nvim) - formatter
     - **UI and Visuals**
     - [X] [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - status line
-    - [ ] [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - highlight todo comments
-    - [ ] [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - color themes
-    - [ ] [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) -
-    - [ ] [fidget.nvim](https://github.com/j-hui/fidget.nvim) - status notifier
+    - [X] [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) - highlight todo comments
+    - [X] [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) - color themes
+    - [X] [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) -
+    - [X] [fidget.nvim](https://github.com/j-hui/fidget.nvim) - status notifier
     - **DAP and LSP**
-    - [ ] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - autocompletion
-    - [ ] [nvim-dap](https://github.com/mfussenegger/nvim-dap) - debug adapter protocol
-    - [ ] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - language server
-    - [ ] [mason.nvim](https://github.com/mason-org/mason.nvim) - language server manager
+    - [X] [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - autocompletion
+    - [X] [nvim-dap](https://github.com/mfussenegger/nvim-dap) - debug adapter protocol
+    - [X] [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - language server
+    - [X] [mason.nvim](https://github.com/mason-org/mason.nvim) - language server manager
     - **Other Utilities**
-    - [ ] [md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - PDF converter for MD
-- [ ] Validation
+    - [X] [md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) - PDF converter for MD
+- [X] Validation
 
